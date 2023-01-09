@@ -1,11 +1,12 @@
-    import Navbar from './components/Navbar';
-    import Content from './components/Content';
-    import Footer from './components/Footer';
-    import Button from '@mui/material/Button';
-    import './App.scss';
+import Navbar from './components/Navbar';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Button from '@mui/material/Button';
+import './App.scss';
 
     export default function App() {
-        return (
+
+      return (
             <div className='App'>
                 <Navbar />
                 <Content />
