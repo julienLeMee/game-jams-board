@@ -4,6 +4,8 @@ import Footer from './components/Footer';
 import Button from '@mui/material/Button';
 import './App.scss';
 
+require('dotenv').config({ path: '../.env' });
+
     export default function App() {
 
       return (
