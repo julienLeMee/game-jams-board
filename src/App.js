@@ -8,6 +8,7 @@ import './App.scss';
 
       return (
             <div className='App'>
+                <h1 className="text-3xl font-bold underline">Game Jams Board!</h1>
                 <Navbar />
                 <Content />
                 <Footer />
